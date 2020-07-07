@@ -48,7 +48,7 @@ use = "katex"  # builtin: "katex", "mathjax".  default: "katex"
 
 [params.syntax]
 use = "hljs"  # builtin: "prismjs", "hljs". "none" means Chroma
-theme = "github"
+theme = "Agate"
 darkTheme = "dracula"
 
 [params.profile]
