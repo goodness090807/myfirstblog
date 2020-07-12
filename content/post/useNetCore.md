@@ -2,7 +2,7 @@
 title: "開始使用ASP.net core"
 date: 2020-07-09T21:31:24+08:00
 draft: false
-tags: [".net Core"]
+tags: ["asp.net Core"]
 ---
 
 這篇主要紀錄 .net core的安裝流程 方便自己換電腦的時候來重新安裝，那我們就開始來今天的教學吧
