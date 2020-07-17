@@ -1,7 +1,7 @@
 ---
 title: "使用hugo建立自己的Blog"
 date: 2020-07-07T20:50:16+08:00
-draft: false
+draft: true
 tags: ["blog","github"]
 ---
 
