@@ -21,7 +21,7 @@ dotnet --version
 ```
 結果圖：
 
-![CheckVersion](https://i.imgur.com/jYAijQ1.jpg)
+![dotnetversion](https://i.imgur.com/nX2Lfls.jpg)
 
 ## <font color=#008000>※</font> 下載編輯器(IDE)
 安裝完SDK之後當然就是要安裝我們的編輯器啦，這邊我比較常用以下兩個

@@ -53,7 +53,7 @@ Restore succeeded.
 
 ## <font color=#008000>※</font> 開啟你的專案
 
-再來要怎麼開啟專案呢，也很簡單，因為你目前就在此目錄，所以只要輸入以下指令
+再來要怎麼開啟專案呢，因為你目前就在此目錄，所以只要輸入以下指令
 
 ```powershell
 code .
@@ -68,7 +68,7 @@ code .
 
 ## <font color=#008000>※</font> 要怎麼安裝C# Extension 呢?
 
-很簡單只要移動到Extensions 並搜尋 C# 然後找到星星那個按下Install就安裝好囉!
+只要移動到Extensions 並搜尋 C# 然後找到星星那個按下Install就會安裝了!
 
 啊!抱歉，我的是已經安裝好了，所以沒有Install，但你們那邊會看到，放心按下去就對了
 ![dotnewweb](https://i.imgur.com/YDZcyIG.jpg)
@@ -79,16 +79,30 @@ code .
 
 ## <font color=#008000>※</font> 開啟網站
 
-建立好Debug環境後，接下來只要按**F5**就會建立開始執行你的第一個網頁囉!484很神奇XD (迷之聲：並沒有
+建立好Debug環境後，接下來只要按**F5**就會建立開始執行你的第一個網頁囉!
 
 然後因為預設會把你的連線設定在Https 所以進去網頁的時候會有這個畫面
 
 ![localpage](https://i.imgur.com/hizj9L5.jpg)
 
-這時候不要緊張，這是因為你的本機端沒有憑證的關係才會出現這個，這時候只要 Do Re Mi So，啊!不是這個 是只要點選 "<font color=#008000>進階</font>" -> "<font color=#008000>繼續前往 localhost 網站 (不安全)</font>" 
+這是因為你的本機端沒有憑證的關係才會出現這個
 
-這樣就能看到你的網頁啦! 其實那個不安全是沒關係啦!因為這是你本地端的網站，不用去擔心資料被竊取什麼的XD
+如果懶得設定本機憑證的話，只要點選 "<font color=#008000>進階</font>" -> "<font color=#008000>繼續前往 localhost 網站 (不安全)</font>" 
 
-好啦!終於把基礎的網站建立打完了，這樣是不是對開發網站又更了解一些了呢?
+
+但覺得不安全訊息不好看的話，可以用指令建立你的憑證
+
+```powershell
+dotnet dev-certs https --trust
+```
+輸入完後會詢問你是否要安裝憑證，這時候點選"是"就會自動安裝了。
+
+![InstallCertificate](https://i.imgur.com/jrwaDIM.jpg)
+
+這時候再開啟網站，就會出現憑證囉!
+
+![InstallCertificate](https://i.imgur.com/s1tr7CD.jpg)
+
+好啦!終於把基礎的網站建立打完了，這樣是不是對開發網站又更了解一些了
 
 接下來如果我有空的話會再介紹一些網頁的知識，讓你一步步把你理想中的網站建立完成哦!敬啟期待
