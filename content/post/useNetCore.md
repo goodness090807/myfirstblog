@@ -35,7 +35,7 @@ dotnet --version
 
 ----
 
-***Visual Studio 2019*** 的話當然還是有一些市場，畢竟像我這種在工作的時候基本上公司都是用 .net framework 還有一些Web Form或是Win form來開發專案，所以很多介面式的操作還是比較會依賴他，因為我懶得去Google要怎麼在vs code 做到同樣功能XDD
+***Visual Studio 2019*** 的話當然還是超級好用的，畢竟像我這種在工作的時候基本上公司都是用 .net framework 還有一些Web Form或是Win form來開發專案，所以很多介面式的操作還是比較會依賴他，因為我懶得去Google要怎麼在vs code 做到同樣功能XDD
 
 ---
 

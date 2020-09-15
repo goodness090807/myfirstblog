@@ -1,11 +1,11 @@
 ---
-title: "開始建立你的第一個 .net core網站啦!"
+title: "開始建立你的第一個 .net core網站!"
 date: 2020-07-17T21:19:06+08:00
 draft: false
 tags: ["asp.net Core"]
 ---
 
-介紹完基本環境的安裝之後，接下來就要介紹如何快速地建立一個專案啦，透過 .net core CLI 中提供的指令，可以很快速建立預設專案的指令，像是 MVC、Rozor Page、Web API或者Win Form都可以快速建立，所以我們不需要手動一行一行Key,這樣我還不累死XD，那接下來就來看看要怎麼操作啦。
+介紹完基本環境的安裝之後，接下來就要介紹如何快速地建立一個專案啦，透過 .net core CLI 中提供的指令，可以很快速建立預設專案的指令，像是 MVC、Rozor Page、Web API或者Win Form都可以快速建立，所以我們不需要手動一行一行Key，那接下來就來看看要怎麼操作啦。
 
 關於指令參考可以看看微軟官網的說明哦([連結](https://docs.microsoft.com/zh-tw/dotnet/core/tools/dotnet-new#web-options))
 
@@ -79,7 +79,7 @@ code .
 
 ## <font color=#008000>※</font> 開啟網站
 
-建立好Debug環境後，接下來只要按**F5**就會建立開始執行你的第一個網頁囉!
+建立好Debug環境後，接下來只要按**F5**就會建立開始執行你的第一個網頁!
 
 然後因為預設會把你的連線設定在Https 所以進去網頁的時候會有這個畫面
 
